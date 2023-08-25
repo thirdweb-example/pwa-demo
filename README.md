@@ -1,27 +1,20 @@
 ## Getting Started
 
-Create a project using this example:
+PWA Demo
 
-```bash
-npx thirdweb create --template next-typescript-starter
-```
+Showcases:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-On `pages/_app.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
+Email & social auth (embedded wallets)
+→ AA wallets (ERC-4337 for signless + gasless UX)
+→ thirdweb React SDK (PWA dApp template)
 
 ## Environment Variables
 
 To run this project, you will need to add environment variables. Check the `.env.example` file for all the environment variables required and add it to `.env.local` file or set them up on your hosting provider.
 
-## Deploy to IPFS
+You can get a thridweb clientId from https://thirdweb.com/create-api-key
 
-Deploy a copy of your application to IPFS using the following command:
-
-```bash
-yarn deploy
-```
+You can get a Paper clientId from https://withpaper.com/sign-in
 
 ## Learn More
 
