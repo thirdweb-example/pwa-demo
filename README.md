@@ -1,12 +1,12 @@
 ## Getting Started
 
-PWA Demo
+**PWA Demo**
 
 Showcases:
 
-Email & social auth (embedded wallets)
-→ AA wallets (ERC-4337 for signless + gasless UX)
-→ thirdweb React SDK (PWA dApp template)
+- Email & social auth (embedded wallets)
+- → AA wallets (ERC-4337 for signless + gasless UX)
+- → thirdweb React SDK (PWA dApp template)
 
 ## Environment Variables
 
