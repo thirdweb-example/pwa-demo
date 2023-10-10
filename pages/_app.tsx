@@ -1,7 +1,7 @@
 import type { AppProps } from "next/app";
 import {
   ThirdwebProvider,
-  paperWallet,
+  embeddedWallet,
   smartWallet,
 } from "@thirdweb-dev/react";
 import "../styles/globals.css";
@@ -19,14 +19,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}
       activeChain={activeChain}
       supportedWallets={[
-        smartWallet({
+        smartWallet(embeddedWallet(), {
           factoryAddress: "0x9838b534cd5950CB6ea9E7fa94c00CF3986F953B",
           gasless: true,
-          personalWallets: [
-            paperWallet({
-              paperClientId: process.env.NEXT_PUBLIC_PAPER_CLIENT_ID || "", // Get your paper client id from https://withpaper.com/sign-in
-            }),
-          ],
         }),
       ]}
     >

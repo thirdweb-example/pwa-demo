@@ -10,11 +10,9 @@ Showcases:
 
 ## Environment Variables
 
-To run this project, you will need to add environment variables. Check the `.env.example` file for all the environment variables required and add it to `.env.local` file or set them up on your hosting provider.
+To run this project, you will need to create a `clientId` and set it in an `.env.local` file. Check the `.env.example` file for the required variable name.
 
-You can get a thridweb clientId from https://thirdweb.com/create-api-key
-
-You can get a Paper clientId from https://withpaper.com/sign-in
+You can get a thridweb `clientId` from https://thirdweb.com/create-api-key. Please, make sure to enable the `Embedded Wallets` service.
 
 ## Learn More
 
